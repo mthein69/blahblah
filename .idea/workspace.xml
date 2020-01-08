@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="133eda98-4f16-43c2-894d-4c7bb80789b7" name="Default Changelist" comment="Uploading pom file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mthein69 &lt;40437530@live.napier.ac.uk&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\DELL\IdeaProjects\seMethods\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W67R8BQwI8ImJHpsFmBUQmdtO5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="133eda98-4f16-43c2-894d-4c7bb80789b7" name="Default Changelist" comment="" />
+      <created>1578458180409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578458180409</updated>
+      <workItem from="1578458183138" duration="1085000" />
+      <workItem from="1578465867316" duration="127000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creating gitignore and readme files">
+      <created>1578458855296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458855296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Uploading pom file">
+      <created>1578458984082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458984082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating gitignore and readme files" />
+    <MESSAGE value="Uploading pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading pom file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="72" key="#Project_Structure" timestamp="1578465973959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578465973959" />
+    <state x="764" y="10" key="CommitChangelistDialog2" timestamp="1578459012598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="764" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578459012598" />
+    <state x="555" y="56" key="SettingsEditor" timestamp="1578465993549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578465993549" />
+    <state x="722" y="149" key="Vcs.Push.Dialog.v2" timestamp="1578459034325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578459034325" />
+    <state x="750" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1578465869787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="750" y="268" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578465869787" />
+    <state x="889" y="207" key="git4idea.merge.GitPullDialog" timestamp="1578458624601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="889" y="207" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1578458624601" />
+  </component>
+</project>
