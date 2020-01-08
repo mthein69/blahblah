@@ -1,1 +1,1 @@
-This is readme file.
+[![Build Status](https://travis-ci.com/mthein69/sem.svg?branch=master)](https://travis-ci.com/mthein69/sem)
