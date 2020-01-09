@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="133eda98-4f16-43c2-894d-4c7bb80789b7" name="Default Changelist" comment="Uploading pom file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+    <list default="true" id="a275f9cf-5966-4315-84b3-0bf3c2da6042" name="Default Changelist" comment="Edit pom.xml file.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -22,17 +21,14 @@
         <option value="mthein69 &lt;40437530@live.napier.ac.uk&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\DELL\IdeaProjects\seMethods\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1W67R8BQwI8ImJHpsFmBUQmdtO5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1W6VX3dApVvEXDgTQWioULMPx9S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,12 +38,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -61,9 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="mongo:latest" />
+          <option name="commandLineOptions" value="-p 27000:27017" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +87,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -84,79 +114,124 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="133eda98-4f16-43c2-894d-4c7bb80789b7" name="Default Changelist" comment="" />
-      <created>1578458180409</created>
+      <changelist id="a275f9cf-5966-4315-84b3-0bf3c2da6042" name="Default Changelist" comment="" />
+      <created>1578470067510</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578458180409</updated>
-      <workItem from="1578458183138" duration="1085000" />
-      <workItem from="1578465867316" duration="127000" />
+      <updated>1578470067510</updated>
+      <workItem from="1578470069224" duration="5407000" />
+      <workItem from="1578538439897" duration="4109000" />
     </task>
-    <task id="LOCAL-00001" summary="Creating gitignore and readme files">
-      <created>1578458855296</created>
+    <task id="LOCAL-00001" summary="Developing Dockerfile">
+      <created>1578470365746</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1578458855296</updated>
+      <updated>1578470365746</updated>
     </task>
-    <task id="LOCAL-00002" summary="Uploading pom file">
-      <created>1578458984082</created>
+    <task id="LOCAL-00002" summary="Adding a Travis Build File">
+      <created>1578470850141</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1578458984082</updated>
+      <updated>1578470850141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Edit README.md file.">
+      <created>1578471376897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578471376897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edit again README.md file.">
+      <created>1578472008391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578472008391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Edit .travis.yml file.">
+      <created>1578472474498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578472474498</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edit README.md file.">
+      <created>1578473103160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578473103160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edit README.md file.">
+      <created>1578473294332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578473294332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Edit README.md file.">
+      <created>1578473382832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578473382832</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Edit pom.xml file.">
+      <created>1578543498973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578543498974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating gitignore and readme files" />
-    <MESSAGE value="Uploading pom file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading pom file" />
+    <MESSAGE value="Developing Dockerfile" />
+    <MESSAGE value="Adding a Travis Build File" />
+    <MESSAGE value="Edit again README.md file." />
+    <MESSAGE value="Edit .travis.yml file." />
+    <MESSAGE value="Edit README.md file." />
+    <MESSAGE value="Edit pom.xml file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit pom.xml file." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="72" key="#Project_Structure" timestamp="1578465973959">
+    <state x="880" y="60" key="#Docker_Image" timestamp="1578543158591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578465973959" />
-    <state x="764" y="10" key="CommitChangelistDialog2" timestamp="1578466058795">
+    <state x="880" y="60" key="#Docker_Image/0.0.1536.824@0.0.1536.824" timestamp="1578543158591" />
+    <state x="722" y="72" key="#Project_Structure" timestamp="1578470235171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="764" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578466058795" />
-    <state width="752" height="208" key="GridCell.Tab.0.bottom" timestamp="1578466063652">
+    <state x="722" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578470235171" />
+    <state x="722" y="75" key="#Pull_Image" timestamp="1578538643395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578466063652" />
-    <state width="752" height="208" key="GridCell.Tab.0.center" timestamp="1578466063651">
+    <state x="722" y="75" key="#Pull_Image/0.0.1536.824@0.0.1536.824" timestamp="1578538643395" />
+    <state x="729" y="8" key="CommitChangelistDialog2" timestamp="1578543498443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578466063651" />
-    <state width="752" height="208" key="GridCell.Tab.0.left" timestamp="1578466063651">
+    <state x="729" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578543498443" />
+    <state x="555" y="56" key="SettingsEditor" timestamp="1578543699063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578466063651" />
-    <state width="752" height="208" key="GridCell.Tab.0.right" timestamp="1578466063652">
+    <state x="555" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578543699063" />
+    <state x="722" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578543566379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="752" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578466063652" />
-    <state x="555" y="56" key="SettingsEditor" timestamp="1578465993549">
+    <state x="722" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578543566379" />
+    <state x="835" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578538438620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578465993549" />
-    <state x="618" y="149" key="Vcs.Push.Dialog.v2" timestamp="1578466041851">
+    <state x="835" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578538438620" />
+    <state x="861" y="93" width="582" height="638" key="dock-window-1" timestamp="1578470809723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="618" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578466041851" />
-    <state x="750" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1578465869787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="750" y="268" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578465869787" />
-    <state x="889" y="207" key="git4idea.merge.GitPullDialog" timestamp="1578458624601">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="889" y="207" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1578458624601" />
+    <state x="861" y="93" width="582" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1578470809723" />
   </component>
 </project>
