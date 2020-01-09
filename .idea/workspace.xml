@@ -1,97 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a275f9cf-5966-4315-84b3-0bf3c2da6042" name="Default Changelist" comment="Adding package in Mavel panel.">
+    <list default="true" id="a37f3153-796e-4618-9352-4f96c86ac057" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="mthein69 &lt;40437530@live.napier.ac.uk&gt;" />
-      </list>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1W6VX3dApVvEXDgTQWioULMPx9S" />
+  <component name="ProjectId" id="1W9E0WTHsTufPlNFW7g4NdABReE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
-      <module name="seMethods" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.napier.sem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="mongo:latest" />
-          <option name="commandLineOptions" value="-p 27000:27017" />
+          <option name="imageTag" value="sha256:e72d44ec422bdd98fe25416e862fd479f16acc5c953ffd4010e2ec7ebe4fb5fe" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -127,172 +94,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a275f9cf-5966-4315-84b3-0bf3c2da6042" name="Default Changelist" comment="" />
-      <created>1578470067510</created>
+      <changelist id="a37f3153-796e-4618-9352-4f96c86ac057" name="Default Changelist" comment="" />
+      <created>1578553193589</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578470067510</updated>
-      <workItem from="1578470069224" duration="5407000" />
-      <workItem from="1578538439897" duration="4595000" />
-      <workItem from="1578544265079" duration="1320000" />
+      <updated>1578553193589</updated>
+      <workItem from="1578553217864" duration="758000" />
     </task>
-    <task id="LOCAL-00001" summary="Developing Dockerfile">
-      <created>1578470365746</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1578470365746</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Adding a Travis Build File">
-      <created>1578470850141</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1578470850141</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Edit README.md file.">
-      <created>1578471376897</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1578471376897</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Edit again README.md file.">
-      <created>1578472008391</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1578472008391</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Edit .travis.yml file.">
-      <created>1578472474498</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1578472474498</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Edit README.md file.">
-      <created>1578473103160</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1578473103160</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Edit README.md file.">
-      <created>1578473294332</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578473294332</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Edit README.md file.">
-      <created>1578473382832</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1578473382832</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Edit pom.xml file.">
-      <created>1578543498973</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578543498974</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Edit pom.xml file.">
-      <created>1578543786348</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578543786348</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adding MongoDB.">
-      <created>1578544947832</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1578544947832</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Developing Dockerfile" />
-    <MESSAGE value="Adding a Travis Build File" />
-    <MESSAGE value="Edit again README.md file." />
-    <MESSAGE value="Edit .travis.yml file." />
-    <MESSAGE value="Edit README.md file." />
-    <MESSAGE value="Edit pom.xml file." />
-    <MESSAGE value="Adding MongoDB." />
-    <MESSAGE value="Adding package in Mavel panel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding package in Mavel panel." />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="880" y="60" key="#Docker_Image" timestamp="1578543158591">
+    <state x="880" y="60" key="#Docker_Image" timestamp="1578553985494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="880" y="60" key="#Docker_Image/0.0.1536.824@0.0.1536.824" timestamp="1578543158591" />
-    <state x="413" y="75" key="#Project_Structure" timestamp="1578544163516">
+    <state x="880" y="60" key="#Docker_Image/0.0.1536.824@0.0.1536.824" timestamp="1578553985494" />
+    <state x="880" y="0" key="#Dockerfile" timestamp="1578553412684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="413" y="75" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578544163516" />
-    <state x="722" y="75" key="#Pull_Image" timestamp="1578538643395">
+    <state x="880" y="0" key="#Dockerfile/0.0.1536.824@0.0.1536.824" timestamp="1578553412684" />
+    <state x="722" y="72" key="#Notifications" timestamp="1578553934700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="75" key="#Pull_Image/0.0.1536.824@0.0.1536.824" timestamp="1578538643395" />
-    <state x="729" y="8" key="CommitChangelistDialog2" timestamp="1578545535057">
+    <state x="722" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1578553934700" />
+    <state x="361" y="72" key="#Project_Structure" timestamp="1578553292360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="729" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578545535057" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1578545535077">
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578553292360" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578553220434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578545535077" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1578545535077">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578545535077" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1578545535077">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578545535077" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1578545535077">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578545535077" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1578545420569">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578545420569" />
-    <state x="722" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578544951953">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578544951953" />
-    <state x="835" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578544266159">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="835" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578544266159" />
-    <state x="550" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578544154436">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="550" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1578544154436" />
-    <state x="861" y="93" width="582" height="638" key="dock-window-1" timestamp="1578470809723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="861" y="93" width="582" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1578470809723" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578553220434" />
   </component>
 </project>
